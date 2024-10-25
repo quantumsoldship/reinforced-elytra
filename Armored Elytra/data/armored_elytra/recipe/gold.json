@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "Armored Elytra",
+  "ingredients": [
+    "minecraft:golden_chestplate",
+    "minecraft:elytra"
+  ],
+  "result": {
+    "id": "minecraft:golden_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:glider": {},
+      "minecraft:equippable": {
+        "slot": "chest",
+        "allowed_entities": "minecraft:player",
+        "dispensable": true,
+        "swappable": true,
+        "damage_on_hurt": false
+      },
+      "minecraft:lore": [
+        "{\"text\":\"Reinforced with gold\",\"color\":\"yellow\"}"
+      ],
+      "minecraft:max_damage": 352,
+      "minecraft:item_name": "{\"text\":\"Elytra\"}",
+      "minecraft:rarity": "epic",
+      "minecraft:custom_model_data": 1719194
+    }
+  }
+}

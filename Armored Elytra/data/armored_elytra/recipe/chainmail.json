@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "Armored Elytra",
+  "ingredients": [
+    "minecraft:chainmail_chestplate",
+    "minecraft:elytra"
+  ],
+  "result": {
+    "id": "minecraft:chainmail_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:glider": {},
+      "minecraft:equippable": {
+        "slot": "chest",
+        "allowed_entities": "minecraft:player",
+        "dispensable": true,
+        "swappable": true,
+        "damage_on_hurt": false
+      },
+      "minecraft:max_damage": 672,
+      "minecraft:item_name": "{\"text\":\"Elytra\"}",
+      "minecraft:custom_model_data": 1719192,
+      "minecraft:lore": [
+        "{\"text\":\"Reinforced with chainmail\",\"color\":\"silver\"}"
+      ],
+      "minecraft:rarity": "epic"
+    }
+  }
+}

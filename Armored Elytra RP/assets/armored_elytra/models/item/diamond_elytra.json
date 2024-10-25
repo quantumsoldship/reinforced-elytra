@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "armored_elytra:item/diamond_elytra"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "Armored Elytra",
+  "ingredients": [
+    "minecraft:netherite_chestplate",
+    "minecraft:elytra"
+  ],
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:glider": {},
+      "minecraft:equippable": {
+        "slot": "chest",
+        "allowed_entities": "minecraft:player",
+        "dispensable": true,
+        "swappable": true,
+        "damage_on_hurt": false
+      },
+      "minecraft:lore": [
+        "{\"text\":\"Reinforced with netherite\",\"color\":\"orange\"}"
+      ],
+      "minecraft:max_damage": 832,
+      "minecraft:item_name": "{\"text\":\"Elytra\"}",
+      "minecraft:rarity": "epic",
+      "minecraft:custom_model_data": 1719196
+    }
+  }
+}

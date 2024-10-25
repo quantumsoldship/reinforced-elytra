@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/elytra"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1719192
+            },
+            "model": "armored_elytra:item/chainmail_elytra"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1719193
+            },
+            "model": "armored_elytra:item/golden_elytra"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1719194
+            },
+            "model": "armored_elytra:item/iron_elytra"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1719195
+            },
+            "model": "armored_elytra:item/diamond_elytra"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1719196
+            },
+            "model": "armored_elytra:item/netherite_elytra"
+        }
+    ]
+}
